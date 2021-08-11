@@ -1,0 +1,66 @@
+body {
+    background:url("/images/YBR.jpg") fixed 50% / cover;
+    background-repeat:no-repeat;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:white;
+    text-shadow: 2px 2px 4px darkgreen;
+}
+
+h1 {
+    text-align: center;
+}
+
+.castimg_container {
+    display:flex;
+    justify-content: center;
+}
+
+.cast_el {
+    margin:20px 20px;
+    width:300px;
+    height:auto;
+    
+    
+}
+
+.friendimg_el {
+    width:150px;
+    height:auto;
+}
+
+nav ul {
+    display:flex;
+    justify-content: space-evenly;
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+
+nav li {
+    display:inline;
+}
+
+.main_friends {
+    display:flex;
+    flex-wrap:wrap;
+    text-align:center;
+    justify-content: space-evenly;
+}
+
+.friend {
+    max-width:200px;
+    height:200px;
+    overflow:hidden;
+}
+
+aside {
+    background-image:url("/images/emerald.jpg");
+    background-size: cover;
+}
+
+footer {
+    text-align: center;
+    background-image:url("/images/emerald.jpg");
+    margin-left:280px;
+    margin-right:280px;
+}
