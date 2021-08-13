@@ -7,7 +7,15 @@ body {
 }
 
 h1 {
+    background-image: url(/images/yellowbrick.jpg);
+    background-size:10%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
     text-align: center;
+    text-shadow:none;
+    font-size:60px;
+    
 }
 
 h2 {
@@ -21,6 +29,19 @@ h3 {
 .castimg_container {
     display:flex;
     justify-content: center;
+    margin: 0 25px;
+}
+
+.synopsis_container {
+    background-color:rgba(255, 255, 255, 0.5);
+    border:2px ridge white;
+    border-radius: 5px;
+    margin:0 25px;
+}
+
+.synopsis_container p {
+    margin:25px 25px;
+    
 }
 
 .cast_el {
@@ -33,21 +54,42 @@ h3 {
 }
 
 .friendimg_el {
-    width:150px;
+    width:180px;
     height:auto;
     filter: drop-shadow(5px 5px 0px darkgreen);
 }
 
+.witchimg_el {
+
+    width:250px;
+    height:auto;
+    filter: drop-shadow(5px 5px 0px darkgreen);
+
+}
+
 nav ul {
+    border:2px ridge white;
+    border-radius: 5px;
+    background:url("/images/ruby.jpg");
+    background-size: cover;
     display:flex;
     justify-content: space-evenly;
     list-style-type:none;
     margin:0;
-    padding:0;
+    padding:10px 10px;
 }
 
 nav li {
     display:inline;
+}
+
+.friends_container h2 {
+    border:2px ridge white;
+    border-radius: 5px;
+    background:url("/images/ruby.jpg");
+    background-size: cover;
+    margin-left:350px;
+    margin-right:350px;
 }
 
 .main_friends {
@@ -57,22 +99,47 @@ nav li {
     justify-content: space-evenly;
 }
 
+
+.main_witches {
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+    text-align:center;
+    align-content: center;
+}
 .friend {
     max-width:200px;
     height:200px;
+    
+}
+
+.witch {
+    max-width:500px;
+    height:500px;
     overflow:hidden;
 }
 
 aside {
-    background-image:url("/images/emerald.jpg");
+    margin: 20px 20px;
+    border:2px ridge white;
+    border-radius: 5px;
+    background:url("/images/emerald.jpg");
     background-size: cover;
+}
+
+.article_container {
+    margin: 0 25px;
 }
 
 footer {
     text-align: center;
-    background-image:url("/images/emerald.jpg");
     margin-left:280px;
     margin-right:280px;
+    margin-top:50px;
+    border:2px ridge white;
+    border-radius: 5px;
+    background:url("/images/ruby.jpg");
+    background-size: cover;
 }
 
 a:link {
@@ -99,6 +166,12 @@ a:link {
     text-decoration: underline;
   }
 
+.img_container {
+    display:flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
 .profile_container {
     display:flex;
     flex-wrap: wrap;
@@ -108,13 +181,32 @@ a:link {
 }
 
 .profile_container p {
-    width:800px;
+    text-align:center;
+    margin: 20px 30px;
+     
+
 }
 
 .quote_element {
-    width: 500px;
-    text-shadow:1px 1px 0px black;
+    display:flex;
+    flex-flow: column wrap;
+    text-align: center;
+    color:darkgreen;
+    text-shadow:1px 1px 0px white;
     font-style:italic;
+    margin-bottom:25px;
+    margin-top:10px;
+}
+
+
+.quote_source {
+    display: flex;
+    flex-flow:column wrap;
+    color:darkgreen;
+    font-style:italic;
+    text-align: center;
+    
+    
 }
 
 .profile_image {
@@ -122,4 +214,30 @@ a:link {
     width:300px;
     height:auto;
     filter: drop-shadow(5px 5px 0px darkgreen)
+}
+
+.bio_container {
+    margin: 10px 20px;
+    border:2px ridge white;
+    border-radius: 5px;
+    background:url("/images/emerald.jpg");
+    background-size: cover;
+}
+
+.witch p {
+    margin: 10px 20px;
+    border:2px ridge white;
+    border-radius: 5px;
+    background:url("/images/emerald.jpg");
+    background-size: cover;
+    
+}
+
+.witch h3 {
+    border:2px ridge white;
+    border-radius: 5px;
+    background:url("/images/ruby.jpg");
+    background-size: cover;
+    margin-left:150px;
+    margin-right:150px;
 }
